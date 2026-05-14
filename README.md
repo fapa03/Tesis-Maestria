@@ -35,5 +35,43 @@ Based on field tests conducted on the **Mochis-Obregón highway**, the architect
 * **Low Cryptographic Overhead:** Encryption times ranging from **5.9ms to 12.9ms**, ensuring real-time performance for vehicular safety.
 * **Resiliency:** Successful transmission in "Marginal" signal areas (-109 to -93 dBm), where standard data services often fail.
 
+## 📊 CAPÍTULO V. RESULTADOS
+
+### 5.2. Comportamiento de la Calidad de Señal
+The performance of the system was evaluated based on the Received Signal Strength Indicator (RSSI) to determine its reliability in adverse communication environments.
+
+#### RSSI Values and Signal Stability
+The following figures illustrate the signal behavior across different testing scenarios:
+
+* **Figura 21. Valores de RSSI.** <img width="803" height="459" alt="image" src="https://github.com/user-attachments/assets/94e1481b-a73b-4341-ab59-a0ab0864f457" />
+
+    This chart details the signal fluctuations during the highway transition, showing the system's ability to maintain MQTT connectivity even at low decibel levels.
+
+* **Figura 25.** <img width="1107" height="379" alt="image" src="https://github.com/user-attachments/assets/f346ee91-9a04-4875-ba36-551740f09a03" />
+
+
+* **Figura 31.** <img width="1013" height="600" alt="image" src="https://github.com/user-attachments/assets/8bdc7321-70c4-4e2f-b7fb-e0b8acd6300c" />
+
+
+---
+
+## 🔍 Comparative Analysis & Conclusion
+
+A critical part of the study was comparing the two implementation modes of the AES-128 algorithm: **Electronic Codebook (ECB)** and **Cipher Block Chaining (CBC)**.
+
+### Algorithm Comparison
+
+| Feature | AES-128 ECB | AES-128 CBC |
+| :--- | :--- | :--- |
+| **Average Latency** | **5.9 ms** (Fastest) | **12.9 ms** |
+| **Security Level** | Standard | High (Initialization Vector included) |
+| **Packet Success Rate** | ~99% | ~97% |
+| **Resource Usage** | Minimal | Moderate |
+
+### Final Conclusion
+The research concludes that for **CV2-X (Cellular Vehicle-to-Everything)** applications in remote areas, the **AES-128 ECB** mode provides the most efficient balance. While CBC offers higher security by preventing pattern recognition in encrypted data, the **lower latency (5.9ms)** of ECB is more critical for real-time vehicular safety alerts where every millisecond counts. 
+
+Despite operating in "Marginal" signal zones (-109 to -93 dBm), the MQTT-based architecture proved resilient, maintaining a near-perfect delivery rate, making it a viable solution for emergency telemetry in areas lacking modern 4G/5G infrastructure.
+
 ---
 *Reference: "SISTEMA SEGURO ORIENTADO A MENSAJERÍA CIFRADA CV2-X BASADA EN MQTT" - Francisco Antonio Palos Angulo (2022).*
