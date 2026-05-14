@@ -50,7 +50,7 @@ The following figures illustrate the signal behavior across different testing sc
 * **Figura 25.** <img width="1107" height="379" alt="image" src="https://github.com/user-attachments/assets/f346ee91-9a04-4875-ba36-551740f09a03" />
 
 
-* **Figura 31.** <img width="1013" height="600" alt="image" src="https://github.com/user-attachments/assets/8bdc7321-70c4-4e2f-b7fb-e0b8acd6300c" />
+* **Figura 31.** <img width="506.5" height="300" alt="image" src="https://github.com/user-attachments/assets/8bdc7321-70c4-4e2f-b7fb-e0b8acd6300c" />
 
 
 ---
