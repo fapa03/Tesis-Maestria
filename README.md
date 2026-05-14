@@ -8,6 +8,8 @@ A high-performance communication architecture developed for **Vehicular Ad-hoc N
 * **GSM/GPRS:** SIM800L v2. Selected for its ability to operate on 2G bands, ensuring connectivity in rural areas where 4G/LTE is unavailable.
 * **Positioning:** Neo6mv2 GPS Module for real-time coordinate tracking.
 
+  <img width="582.5" height="249" alt="image" src="https://github.com/user-attachments/assets/739ecaba-00bc-4157-b686-0277bf1ea30e" />
+
 ### Software & Infrastructure
 * **Messaging:** **MQTT** (Message Queuing Telemetry Transport). Chosen for its efficiency in low-bandwidth scenarios compared to traditional HTTP.
 * **Encryption:** **AES-128 (Advanced Encryption Standard)**. Implemented in ECB and CBC modes to secure sensitive telemetry data.
@@ -24,7 +26,7 @@ The project follows a 4-layer architecture to bridge the gap between vehicles an
 
 <img width="1405" height="452" alt="image" src="https://github.com/user-attachments/assets/ffe899c2-b3fa-49f1-9e2e-3108dfe04a05" />
 
-<img width="1165" height="498" alt="image" src="https://github.com/user-attachments/assets/739ecaba-00bc-4157-b686-0277bf1ea30e" />
+
 
 ## 📊 Performance Summary
 Based on field tests conducted on the **Mochis-Obregón highway**, the architecture demonstrated:
