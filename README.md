@@ -43,7 +43,7 @@ The performance of the system was evaluated based on the Received Signal Strengt
 #### RSSI Values and Signal Stability
 The following figures illustrate the signal behavior across different testing scenarios:
 
-* **Figura 21. Valores de RSSI.** <img width="803" height="459" alt="image" src="https://github.com/user-attachments/assets/94e1481b-a73b-4341-ab59-a0ab0864f457" />
+* **Figura 21. Valores de RSSI.** <img width="400" height="225" alt="image" src="https://github.com/user-attachments/assets/94e1481b-a73b-4341-ab59-a0ab0864f457" />
 
     This chart details the signal fluctuations during the highway transition, showing the system's ability to maintain MQTT connectivity even at low decibel levels.
 
